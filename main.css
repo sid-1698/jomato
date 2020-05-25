@@ -1,0 +1,237 @@
+body{
+    font-family: 'Lato',sans-serif;
+    background-color: #f6f6f6 !important;
+}
+
+/* HEADER SECTION  */
+
+#header{
+    background-image: url('./images/background.jpg');
+    width: 100%;
+    min-height: 100px;
+    height:400px;
+    text-align: center;
+}
+
+#header h1{
+    color: white;
+    font-family: 'Modak',cursive;
+    font-size: 5rem;
+    padding-top: 50px;
+}
+
+#header h3{
+    color: white;
+    font-size: 2rem;
+    width: 50%;
+    margin: auto;
+}
+
+.search-bar{
+    margin:0 auto !important;
+    display: block;
+    width: 60%;
+    padding: 50px 0px;
+}
+
+#header .btn-light{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#header input{
+    border-radius: 0px;
+}
+
+#header button{
+    background-color: #ea5455;
+    border-color: #ea5455;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* END OF HEADER SECTION  */
+
+/* CONTENT SECTION  */
+#content{
+    margin: 50px 0px;
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    color:#2d4059;
+}
+
+.row{
+    margin: 0px;
+}
+
+#content h2{
+    margin-bottom : 1.5rem;
+}
+
+.input form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#content .btn-light{
+    background-color: white;
+    text-align: center;
+    border: 1px solid #ced4da
+}
+
+.form-group {
+    margin-bottom: 1.75rem;
+}
+
+.form-group h5{
+    text-align: left;
+    margin-bottom: 0.75rem;
+}
+
+.form-group .custom-control-inline {
+    margin-right: 3.5rem;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #EA5455;
+    background-color: #EA5455;
+}
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    color: #fff;
+    background-color: #EA5455;
+    border-color: #EA5455;
+}
+
+#content textarea{
+    min-height: 100px;
+}
+
+.submit-btn{
+    margin: auto auto 0;
+}
+#content button{
+    background-color: #EA5455;
+}
+/* END OF CUISINE SECTION  */
+
+
+/* RATING BEFORE SUBMITTING */
+.hidden{
+    display: none;
+}
+
+.information{
+    text-align: left;
+    margin: auto;
+    padding: auto;
+    min-height: 500px;
+}
+
+.information h3{
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 2rem;
+    color: #EA5455;
+    padding: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.rating{
+    margin: auto;
+}
+/* END OF RATING BEFORE SUBMITTING */
+
+
+
+/* SEARCH RESULT */
+#result{
+    background-color: #febdbe;
+    min-height: 450px;
+}
+
+.search-result{
+    padding-top: 20px;
+}
+
+#result img{
+    position: absolute;
+    right: 0;
+}
+
+.restaurant-details{
+    margin: 0px;
+    min-height: 250px;
+}
+
+#result h3{
+    color: #EA5455;
+    font-weight: bolder;
+}
+
+#result table{
+    font-size: 1.15rem;
+    margin-top: 50px;
+}
+
+#result .heading{
+    font-weight: 200;
+}
+
+#result .value{
+    font-weight: 1000;
+}
+
+td{
+    padding: 10px 50px 10px 0px;
+}
+
+.star-rating{
+    background-color: green;
+    display: inline-block;
+    padding: 5px;
+}
+
+.star-rating h3{
+    color: white !important;
+    font-weight: bolder;
+}
+
+.result-review{
+    position: relative;
+    left: 370px;
+    margin-top: 10px;
+}
+
+.result-review p{
+    margin: 0px;
+}
+
+.restaurant-review{
+    font-weight: bold;
+}
+
+.rev-date{
+    margin-bottom: 5px !important;
+    font-style: italic;
+}
+/* END OF SEARCH RESULT */
+
+/* FOOTER */
+#footer{
+    background-color: #EA5455;
+    min-height: 50px;
+}
+
+#footer a{
+    text-align: center;
+    display: block;
+}
+
+#footer i{
+    color: white;
+}
